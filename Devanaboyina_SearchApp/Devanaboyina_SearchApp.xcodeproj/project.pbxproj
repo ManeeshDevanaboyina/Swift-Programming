@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EDAD87627D118A400AF9A04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAD87527D118A400AF9A04 /* AppDelegate.swift */; };
+		4EDAD87827D118A400AF9A04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAD87727D118A400AF9A04 /* SceneDelegate.swift */; };
+		4EDAD87A27D118A400AF9A04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAD87927D118A400AF9A04 /* ViewController.swift */; };
+		4EDAD87D27D118A400AF9A04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDAD87B27D118A400AF9A04 /* Main.storyboard */; };
+		4EDAD87F27D118A700AF9A04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDAD87E27D118A700AF9A04 /* Assets.xcassets */; };
+		4EDAD88227D118A700AF9A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDAD88027D118A700AF9A04 /* LaunchScreen.storyboard */; };
+		4EDAD88D27D118A700AF9A04 /* Devanaboyina_SearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAD88C27D118A700AF9A04 /* Devanaboyina_SearchAppTests.swift */; };
+		4EDAD89727D118A700AF9A04 /* Devanaboyina_SearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAD89627D118A700AF9A04 /* Devanaboyina_SearchAppUITests.swift */; };
+		4EDAD89927D118A700AF9A04 /* Devanaboyina_SearchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAD89827D118A700AF9A04 /* Devanaboyina_SearchAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EDAD88927D118A700AF9A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EDAD86A27D118A400AF9A04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EDAD87127D118A400AF9A04;
+			remoteInfo = Devanaboyina_SearchApp;
+		};
+		4EDAD89327D118A700AF9A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EDAD86A27D118A400AF9A04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EDAD87127D118A400AF9A04;
+			remoteInfo = Devanaboyina_SearchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EDAD87227D118A400AF9A04 /* Devanaboyina_SearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devanaboyina_SearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDAD87527D118A400AF9A04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EDAD87727D118A400AF9A04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4EDAD87927D118A400AF9A04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EDAD87C27D118A400AF9A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EDAD87E27D118A700AF9A04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EDAD88127D118A700AF9A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EDAD88327D118A700AF9A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDAD88827D118A700AF9A04 /* Devanaboyina_SearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Devanaboyina_SearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDAD88C27D118A700AF9A04 /* Devanaboyina_SearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devanaboyina_SearchAppTests.swift; sourceTree = "<group>"; };
+		4EDAD89227D118A700AF9A04 /* Devanaboyina_SearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Devanaboyina_SearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDAD89627D118A700AF9A04 /* Devanaboyina_SearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devanaboyina_SearchAppUITests.swift; sourceTree = "<group>"; };
+		4EDAD89827D118A700AF9A04 /* Devanaboyina_SearchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devanaboyina_SearchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EDAD86F27D118A400AF9A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDAD88527D118A700AF9A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDAD88F27D118A700AF9A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EDAD86927D118A400AF9A04 = {
+			isa = PBXGroup;
+			children = (
+				4EDAD87427D118A400AF9A04 /* Devanaboyina_SearchApp */,
+				4EDAD88B27D118A700AF9A04 /* Devanaboyina_SearchAppTests */,
+				4EDAD89527D118A700AF9A04 /* Devanaboyina_SearchAppUITests */,
+				4EDAD87327D118A400AF9A04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EDAD87327D118A400AF9A04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAD87227D118A400AF9A04 /* Devanaboyina_SearchApp.app */,
+				4EDAD88827D118A700AF9A04 /* Devanaboyina_SearchAppTests.xctest */,
+				4EDAD89227D118A700AF9A04 /* Devanaboyina_SearchAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EDAD87427D118A400AF9A04 /* Devanaboyina_SearchApp */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAD87527D118A400AF9A04 /* AppDelegate.swift */,
+				4EDAD87727D118A400AF9A04 /* SceneDelegate.swift */,
+				4EDAD87927D118A400AF9A04 /* ViewController.swift */,
+				4EDAD87B27D118A400AF9A04 /* Main.storyboard */,
+				4EDAD87E27D118A700AF9A04 /* Assets.xcassets */,
+				4EDAD88027D118A700AF9A04 /* LaunchScreen.storyboard */,
+				4EDAD88327D118A700AF9A04 /* Info.plist */,
+			);
+			path = Devanaboyina_SearchApp;
+			sourceTree = "<group>";
+		};
+		4EDAD88B27D118A700AF9A04 /* Devanaboyina_SearchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAD88C27D118A700AF9A04 /* Devanaboyina_SearchAppTests.swift */,
+			);
+			path = Devanaboyina_SearchAppTests;
+			sourceTree = "<group>";
+		};
+		4EDAD89527D118A700AF9A04 /* Devanaboyina_SearchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAD89627D118A700AF9A04 /* Devanaboyina_SearchAppUITests.swift */,
+				4EDAD89827D118A700AF9A04 /* Devanaboyina_SearchAppUITestsLaunchTests.swift */,
+			);
+			path = Devanaboyina_SearchAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EDAD87127D118A400AF9A04 /* Devanaboyina_SearchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDAD89C27D118A700AF9A04 /* Build configuration list for PBXNativeTarget "Devanaboyina_SearchApp" */;
+			buildPhases = (
+				4EDAD86E27D118A400AF9A04 /* Sources */,
+				4EDAD86F27D118A400AF9A04 /* Frameworks */,
+				4EDAD87027D118A400AF9A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Devanaboyina_SearchApp;
+			productName = Devanaboyina_SearchApp;
+			productReference = 4EDAD87227D118A400AF9A04 /* Devanaboyina_SearchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EDAD88727D118A700AF9A04 /* Devanaboyina_SearchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDAD89F27D118A700AF9A04 /* Build configuration list for PBXNativeTarget "Devanaboyina_SearchAppTests" */;
+			buildPhases = (
+				4EDAD88427D118A700AF9A04 /* Sources */,
+				4EDAD88527D118A700AF9A04 /* Frameworks */,
+				4EDAD88627D118A700AF9A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EDAD88A27D118A700AF9A04 /* PBXTargetDependency */,
+			);
+			name = Devanaboyina_SearchAppTests;
+			productName = Devanaboyina_SearchAppTests;
+			productReference = 4EDAD88827D118A700AF9A04 /* Devanaboyina_SearchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EDAD89127D118A700AF9A04 /* Devanaboyina_SearchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDAD8A227D118A700AF9A04 /* Build configuration list for PBXNativeTarget "Devanaboyina_SearchAppUITests" */;
+			buildPhases = (
+				4EDAD88E27D118A700AF9A04 /* Sources */,
+				4EDAD88F27D118A700AF9A04 /* Frameworks */,
+				4EDAD89027D118A700AF9A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EDAD89427D118A700AF9A04 /* PBXTargetDependency */,
+			);
+			name = Devanaboyina_SearchAppUITests;
+			productName = Devanaboyina_SearchAppUITests;
+			productReference = 4EDAD89227D118A700AF9A04 /* Devanaboyina_SearchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EDAD86A27D118A400AF9A04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4EDAD87127D118A400AF9A04 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4EDAD88727D118A700AF9A04 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4EDAD87127D118A400AF9A04;
+					};
+					4EDAD89127D118A700AF9A04 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4EDAD87127D118A400AF9A04;
+					};
+				};
+			};
+			buildConfigurationList = 4EDAD86D27D118A400AF9A04 /* Build configuration list for PBXProject "Devanaboyina_SearchApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EDAD86927D118A400AF9A04;
+			productRefGroup = 4EDAD87327D118A400AF9A04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EDAD87127D118A400AF9A04 /* Devanaboyina_SearchApp */,
+				4EDAD88727D118A700AF9A04 /* Devanaboyina_SearchAppTests */,
+				4EDAD89127D118A700AF9A04 /* Devanaboyina_SearchAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EDAD87027D118A400AF9A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDAD88227D118A700AF9A04 /* LaunchScreen.storyboard in Resources */,
+				4EDAD87F27D118A700AF9A04 /* Assets.xcassets in Resources */,
+				4EDAD87D27D118A400AF9A04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDAD88627D118A700AF9A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDAD89027D118A700AF9A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EDAD86E27D118A400AF9A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDAD87A27D118A400AF9A04 /* ViewController.swift in Sources */,
+				4EDAD87627D118A400AF9A04 /* AppDelegate.swift in Sources */,
+				4EDAD87827D118A400AF9A04 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDAD88427D118A700AF9A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDAD88D27D118A700AF9A04 /* Devanaboyina_SearchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDAD88E27D118A700AF9A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDAD89727D118A700AF9A04 /* Devanaboyina_SearchAppUITests.swift in Sources */,
+				4EDAD89927D118A700AF9A04 /* Devanaboyina_SearchAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EDAD88A27D118A700AF9A04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EDAD87127D118A400AF9A04 /* Devanaboyina_SearchApp */;
+			targetProxy = 4EDAD88927D118A700AF9A04 /* PBXContainerItemProxy */;
+		};
+		4EDAD89427D118A700AF9A04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EDAD87127D118A400AF9A04 /* Devanaboyina_SearchApp */;
+			targetProxy = 4EDAD89327D118A700AF9A04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EDAD87B27D118A400AF9A04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EDAD87C27D118A400AF9A04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EDAD88027D118A700AF9A04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EDAD88127D118A700AF9A04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EDAD89A27D118A700AF9A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EDAD89B27D118A700AF9A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EDAD89D27D118A700AF9A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Devanaboyina_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Devanaboyina_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nwmsu.Devanaboyina-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EDAD89E27D118A700AF9A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Devanaboyina_SearchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Devanaboyina_SearchApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nwmsu.Devanaboyina-SearchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4EDAD8A027D118A700AF9A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nwmsu.Devanaboyina-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Devanaboyina_SearchApp.app/Devanaboyina_SearchApp";
+			};
+			name = Debug;
+		};
+		4EDAD8A127D118A700AF9A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nwmsu.Devanaboyina-SearchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Devanaboyina_SearchApp.app/Devanaboyina_SearchApp";
+			};
+			name = Release;
+		};
+		4EDAD8A327D118A700AF9A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nwmsu.Devanaboyina-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Devanaboyina_SearchApp;
+			};
+			name = Debug;
+		};
+		4EDAD8A427D118A700AF9A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nwmsu.Devanaboyina-SearchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Devanaboyina_SearchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EDAD86D27D118A400AF9A04 /* Build configuration list for PBXProject "Devanaboyina_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDAD89A27D118A700AF9A04 /* Debug */,
+				4EDAD89B27D118A700AF9A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EDAD89C27D118A700AF9A04 /* Build configuration list for PBXNativeTarget "Devanaboyina_SearchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDAD89D27D118A700AF9A04 /* Debug */,
+				4EDAD89E27D118A700AF9A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EDAD89F27D118A700AF9A04 /* Build configuration list for PBXNativeTarget "Devanaboyina_SearchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDAD8A027D118A700AF9A04 /* Debug */,
+				4EDAD8A127D118A700AF9A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EDAD8A227D118A700AF9A04 /* Build configuration list for PBXNativeTarget "Devanaboyina_SearchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDAD8A327D118A700AF9A04 /* Debug */,
+				4EDAD8A427D118A700AF9A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EDAD86A27D118A400AF9A04 /* Project object */;
+}

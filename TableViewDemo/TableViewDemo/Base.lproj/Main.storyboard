@@ -72,6 +72,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="g4u-nk-oOh"/>
+                    <connections>
+                        <outlet property="displayOutlet" destination="jUa-Vc-G3F" id="dPF-0I-mkv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CJA-q3-RGu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

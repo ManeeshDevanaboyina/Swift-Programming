@@ -8,12 +8,18 @@
 import UIKit
 
 class DetailsViewController: UIViewController {
-
-    override func viewDidLoad() {
+    
+    
+    @IBOutlet weak var displayOutlet: UILabel!
+    
+    var product : Product?
+    
+    override func viewDidLoad(){
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        displayOutlet.text = "The product \((product?.productName)!) is of \((product?.productCategory)!) Category"
+        
     }
+    
     
 
     /*

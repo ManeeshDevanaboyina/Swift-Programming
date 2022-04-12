@@ -7,66 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E7C275D27C7E25F007CF985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7C275C27C7E25F007CF985 /* AppDelegate.swift */; };
-		4E7C275F27C7E25F007CF985 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7C275E27C7E25F007CF985 /* SceneDelegate.swift */; };
-		4E7C276127C7E25F007CF985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7C276027C7E25F007CF985 /* ViewController.swift */; };
-		4E7C276427C7E25F007CF985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7C276227C7E25F007CF985 /* Main.storyboard */; };
-		4E7C276627C7E260007CF985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7C276527C7E260007CF985 /* Assets.xcassets */; };
-		4E7C276927C7E260007CF985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7C276727C7E260007CF985 /* LaunchScreen.storyboard */; };
-		4E7C277427C7E260007CF985 /* Devanaboyina_DiceGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7C277327C7E260007CF985 /* Devanaboyina_DiceGameTests.swift */; };
-		4E7C277E27C7E260007CF985 /* Devanaboyina_DiceGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7C277D27C7E260007CF985 /* Devanaboyina_DiceGameUITests.swift */; };
-		4E7C278027C7E260007CF985 /* Devanaboyina_DiceGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7C277F27C7E260007CF985 /* Devanaboyina_DiceGameUITestsLaunchTests.swift */; };
+		4EFEF9FD27FF2DDC00723135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFEF9FC27FF2DDC00723135 /* AppDelegate.swift */; };
+		4EFEF9FF27FF2DDC00723135 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFEF9FE27FF2DDC00723135 /* SceneDelegate.swift */; };
+		4EFEFA0127FF2DDC00723135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFEFA0027FF2DDC00723135 /* ViewController.swift */; };
+		4EFEFA0427FF2DDC00723135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFEFA0227FF2DDC00723135 /* Main.storyboard */; };
+		4EFEFA0627FF2DDE00723135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EFEFA0527FF2DDE00723135 /* Assets.xcassets */; };
+		4EFEFA0927FF2DDE00723135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFEFA0727FF2DDE00723135 /* LaunchScreen.storyboard */; };
+		4EFEFA1427FF2DDE00723135 /* Devanaboyina_DiceGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFEFA1327FF2DDE00723135 /* Devanaboyina_DiceGameTests.swift */; };
+		4EFEFA1E27FF2DDE00723135 /* Devanaboyina_DiceGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFEFA1D27FF2DDE00723135 /* Devanaboyina_DiceGameUITests.swift */; };
+		4EFEFA2027FF2DDE00723135 /* Devanaboyina_DiceGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFEFA1F27FF2DDE00723135 /* Devanaboyina_DiceGameUITestsLaunchTests.swift */; };
+		4EFEFA2D27FF308800723135 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFEFA2C27FF308800723135 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4E7C277027C7E260007CF985 /* PBXContainerItemProxy */ = {
+		4EFEFA1027FF2DDE00723135 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4E7C275127C7E25F007CF985 /* Project object */;
+			containerPortal = 4EFEF9F127FF2DDC00723135 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E7C275827C7E25F007CF985;
+			remoteGlobalIDString = 4EFEF9F827FF2DDC00723135;
 			remoteInfo = Devanaboyina_DiceGame;
 		};
-		4E7C277A27C7E260007CF985 /* PBXContainerItemProxy */ = {
+		4EFEFA1A27FF2DDE00723135 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4E7C275127C7E25F007CF985 /* Project object */;
+			containerPortal = 4EFEF9F127FF2DDC00723135 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E7C275827C7E25F007CF985;
+			remoteGlobalIDString = 4EFEF9F827FF2DDC00723135;
 			remoteInfo = Devanaboyina_DiceGame;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4E7C275927C7E25F007CF985 /* Devanaboyina_DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devanaboyina_DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E7C275C27C7E25F007CF985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E7C275E27C7E25F007CF985 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E7C276027C7E25F007CF985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4E7C276327C7E25F007CF985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4E7C276527C7E260007CF985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4E7C276827C7E260007CF985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4E7C276A27C7E260007CF985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E7C276F27C7E260007CF985 /* Devanaboyina_DiceGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Devanaboyina_DiceGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E7C277327C7E260007CF985 /* Devanaboyina_DiceGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devanaboyina_DiceGameTests.swift; sourceTree = "<group>"; };
-		4E7C277927C7E260007CF985 /* Devanaboyina_DiceGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Devanaboyina_DiceGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E7C277D27C7E260007CF985 /* Devanaboyina_DiceGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devanaboyina_DiceGameUITests.swift; sourceTree = "<group>"; };
-		4E7C277F27C7E260007CF985 /* Devanaboyina_DiceGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devanaboyina_DiceGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4EFEF9F927FF2DDC00723135 /* Devanaboyina_DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devanaboyina_DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFEF9FC27FF2DDC00723135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EFEF9FE27FF2DDC00723135 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4EFEFA0027FF2DDC00723135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EFEFA0327FF2DDC00723135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EFEFA0527FF2DDE00723135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EFEFA0827FF2DDE00723135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EFEFA0A27FF2DDE00723135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFEFA0F27FF2DDE00723135 /* Devanaboyina_DiceGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Devanaboyina_DiceGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFEFA1327FF2DDE00723135 /* Devanaboyina_DiceGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devanaboyina_DiceGameTests.swift; sourceTree = "<group>"; };
+		4EFEFA1927FF2DDE00723135 /* Devanaboyina_DiceGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Devanaboyina_DiceGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFEFA1D27FF2DDE00723135 /* Devanaboyina_DiceGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devanaboyina_DiceGameUITests.swift; sourceTree = "<group>"; };
+		4EFEFA1F27FF2DDE00723135 /* Devanaboyina_DiceGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devanaboyina_DiceGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4EFEFA2C27FF308800723135 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4E7C275627C7E25F007CF985 /* Frameworks */ = {
+		4EFEF9F627FF2DDC00723135 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E7C276C27C7E260007CF985 /* Frameworks */ = {
+		4EFEFA0C27FF2DDE00723135 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E7C277627C7E260007CF985 /* Frameworks */ = {
+		4EFEFA1627FF2DDE00723135 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,53 +78,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E7C275027C7E25F007CF985 = {
+		4EFEF9F027FF2DDC00723135 = {
 			isa = PBXGroup;
 			children = (
-				4E7C275B27C7E25F007CF985 /* Devanaboyina_DiceGame */,
-				4E7C277227C7E260007CF985 /* Devanaboyina_DiceGameTests */,
-				4E7C277C27C7E260007CF985 /* Devanaboyina_DiceGameUITests */,
-				4E7C275A27C7E25F007CF985 /* Products */,
+				4EFEF9FB27FF2DDC00723135 /* Devanaboyina_DiceGame */,
+				4EFEFA1227FF2DDE00723135 /* Devanaboyina_DiceGameTests */,
+				4EFEFA1C27FF2DDE00723135 /* Devanaboyina_DiceGameUITests */,
+				4EFEF9FA27FF2DDC00723135 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4E7C275A27C7E25F007CF985 /* Products */ = {
+		4EFEF9FA27FF2DDC00723135 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4E7C275927C7E25F007CF985 /* Devanaboyina_DiceGame.app */,
-				4E7C276F27C7E260007CF985 /* Devanaboyina_DiceGameTests.xctest */,
-				4E7C277927C7E260007CF985 /* Devanaboyina_DiceGameUITests.xctest */,
+				4EFEF9F927FF2DDC00723135 /* Devanaboyina_DiceGame.app */,
+				4EFEFA0F27FF2DDE00723135 /* Devanaboyina_DiceGameTests.xctest */,
+				4EFEFA1927FF2DDE00723135 /* Devanaboyina_DiceGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4E7C275B27C7E25F007CF985 /* Devanaboyina_DiceGame */ = {
+		4EFEF9FB27FF2DDC00723135 /* Devanaboyina_DiceGame */ = {
 			isa = PBXGroup;
 			children = (
-				4E7C275C27C7E25F007CF985 /* AppDelegate.swift */,
-				4E7C275E27C7E25F007CF985 /* SceneDelegate.swift */,
-				4E7C276027C7E25F007CF985 /* ViewController.swift */,
-				4E7C276227C7E25F007CF985 /* Main.storyboard */,
-				4E7C276527C7E260007CF985 /* Assets.xcassets */,
-				4E7C276727C7E260007CF985 /* LaunchScreen.storyboard */,
-				4E7C276A27C7E260007CF985 /* Info.plist */,
+				4EFEF9FC27FF2DDC00723135 /* AppDelegate.swift */,
+				4EFEF9FE27FF2DDC00723135 /* SceneDelegate.swift */,
+				4EFEFA0027FF2DDC00723135 /* ViewController.swift */,
+				4EFEFA0227FF2DDC00723135 /* Main.storyboard */,
+				4EFEFA2C27FF308800723135 /* GameViewController.swift */,
+				4EFEFA0527FF2DDE00723135 /* Assets.xcassets */,
+				4EFEFA0727FF2DDE00723135 /* LaunchScreen.storyboard */,
+				4EFEFA0A27FF2DDE00723135 /* Info.plist */,
 			);
 			path = Devanaboyina_DiceGame;
 			sourceTree = "<group>";
 		};
-		4E7C277227C7E260007CF985 /* Devanaboyina_DiceGameTests */ = {
+		4EFEFA1227FF2DDE00723135 /* Devanaboyina_DiceGameTests */ = {
 			isa = PBXGroup;
 			children = (
-				4E7C277327C7E260007CF985 /* Devanaboyina_DiceGameTests.swift */,
+				4EFEFA1327FF2DDE00723135 /* Devanaboyina_DiceGameTests.swift */,
 			);
 			path = Devanaboyina_DiceGameTests;
 			sourceTree = "<group>";
 		};
-		4E7C277C27C7E260007CF985 /* Devanaboyina_DiceGameUITests */ = {
+		4EFEFA1C27FF2DDE00723135 /* Devanaboyina_DiceGameUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4E7C277D27C7E260007CF985 /* Devanaboyina_DiceGameUITests.swift */,
-				4E7C277F27C7E260007CF985 /* Devanaboyina_DiceGameUITestsLaunchTests.swift */,
+				4EFEFA1D27FF2DDE00723135 /* Devanaboyina_DiceGameUITests.swift */,
+				4EFEFA1F27FF2DDE00723135 /* Devanaboyina_DiceGameUITestsLaunchTests.swift */,
 			);
 			path = Devanaboyina_DiceGameUITests;
 			sourceTree = "<group>";
@@ -130,13 +133,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4E7C275827C7E25F007CF985 /* Devanaboyina_DiceGame */ = {
+		4EFEF9F827FF2DDC00723135 /* Devanaboyina_DiceGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E7C278327C7E260007CF985 /* Build configuration list for PBXNativeTarget "Devanaboyina_DiceGame" */;
+			buildConfigurationList = 4EFEFA2327FF2DDE00723135 /* Build configuration list for PBXNativeTarget "Devanaboyina_DiceGame" */;
 			buildPhases = (
-				4E7C275527C7E25F007CF985 /* Sources */,
-				4E7C275627C7E25F007CF985 /* Frameworks */,
-				4E7C275727C7E25F007CF985 /* Resources */,
+				4EFEF9F527FF2DDC00723135 /* Sources */,
+				4EFEF9F627FF2DDC00723135 /* Frameworks */,
+				4EFEF9F727FF2DDC00723135 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +147,69 @@
 			);
 			name = Devanaboyina_DiceGame;
 			productName = Devanaboyina_DiceGame;
-			productReference = 4E7C275927C7E25F007CF985 /* Devanaboyina_DiceGame.app */;
+			productReference = 4EFEF9F927FF2DDC00723135 /* Devanaboyina_DiceGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4E7C276E27C7E260007CF985 /* Devanaboyina_DiceGameTests */ = {
+		4EFEFA0E27FF2DDE00723135 /* Devanaboyina_DiceGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E7C278627C7E260007CF985 /* Build configuration list for PBXNativeTarget "Devanaboyina_DiceGameTests" */;
+			buildConfigurationList = 4EFEFA2627FF2DDE00723135 /* Build configuration list for PBXNativeTarget "Devanaboyina_DiceGameTests" */;
 			buildPhases = (
-				4E7C276B27C7E260007CF985 /* Sources */,
-				4E7C276C27C7E260007CF985 /* Frameworks */,
-				4E7C276D27C7E260007CF985 /* Resources */,
+				4EFEFA0B27FF2DDE00723135 /* Sources */,
+				4EFEFA0C27FF2DDE00723135 /* Frameworks */,
+				4EFEFA0D27FF2DDE00723135 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4E7C277127C7E260007CF985 /* PBXTargetDependency */,
+				4EFEFA1127FF2DDE00723135 /* PBXTargetDependency */,
 			);
 			name = Devanaboyina_DiceGameTests;
 			productName = Devanaboyina_DiceGameTests;
-			productReference = 4E7C276F27C7E260007CF985 /* Devanaboyina_DiceGameTests.xctest */;
+			productReference = 4EFEFA0F27FF2DDE00723135 /* Devanaboyina_DiceGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4E7C277827C7E260007CF985 /* Devanaboyina_DiceGameUITests */ = {
+		4EFEFA1827FF2DDE00723135 /* Devanaboyina_DiceGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E7C278927C7E260007CF985 /* Build configuration list for PBXNativeTarget "Devanaboyina_DiceGameUITests" */;
+			buildConfigurationList = 4EFEFA2927FF2DDE00723135 /* Build configuration list for PBXNativeTarget "Devanaboyina_DiceGameUITests" */;
 			buildPhases = (
-				4E7C277527C7E260007CF985 /* Sources */,
-				4E7C277627C7E260007CF985 /* Frameworks */,
-				4E7C277727C7E260007CF985 /* Resources */,
+				4EFEFA1527FF2DDE00723135 /* Sources */,
+				4EFEFA1627FF2DDE00723135 /* Frameworks */,
+				4EFEFA1727FF2DDE00723135 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4E7C277B27C7E260007CF985 /* PBXTargetDependency */,
+				4EFEFA1B27FF2DDE00723135 /* PBXTargetDependency */,
 			);
 			name = Devanaboyina_DiceGameUITests;
 			productName = Devanaboyina_DiceGameUITests;
-			productReference = 4E7C277927C7E260007CF985 /* Devanaboyina_DiceGameUITests.xctest */;
+			productReference = 4EFEFA1927FF2DDE00723135 /* Devanaboyina_DiceGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4E7C275127C7E25F007CF985 /* Project object */ = {
+		4EFEF9F127FF2DDC00723135 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					4E7C275827C7E25F007CF985 = {
+					4EFEF9F827FF2DDC00723135 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					4E7C276E27C7E260007CF985 = {
+					4EFEFA0E27FF2DDE00723135 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 4E7C275827C7E25F007CF985;
+						TestTargetID = 4EFEF9F827FF2DDC00723135;
 					};
-					4E7C277827C7E260007CF985 = {
+					4EFEFA1827FF2DDE00723135 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 4E7C275827C7E25F007CF985;
+						TestTargetID = 4EFEF9F827FF2DDC00723135;
 					};
 				};
 			};
-			buildConfigurationList = 4E7C275427C7E25F007CF985 /* Build configuration list for PBXProject "Devanaboyina_DiceGame" */;
+			buildConfigurationList = 4EFEF9F427FF2DDC00723135 /* Build configuration list for PBXProject "Devanaboyina_DiceGame" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +217,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 4E7C275027C7E25F007CF985;
-			productRefGroup = 4E7C275A27C7E25F007CF985 /* Products */;
+			mainGroup = 4EFEF9F027FF2DDC00723135;
+			productRefGroup = 4EFEF9FA27FF2DDC00723135 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4E7C275827C7E25F007CF985 /* Devanaboyina_DiceGame */,
-				4E7C276E27C7E260007CF985 /* Devanaboyina_DiceGameTests */,
-				4E7C277827C7E260007CF985 /* Devanaboyina_DiceGameUITests */,
+				4EFEF9F827FF2DDC00723135 /* Devanaboyina_DiceGame */,
+				4EFEFA0E27FF2DDE00723135 /* Devanaboyina_DiceGameTests */,
+				4EFEFA1827FF2DDE00723135 /* Devanaboyina_DiceGameUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4E7C275727C7E25F007CF985 /* Resources */ = {
+		4EFEF9F727FF2DDC00723135 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7C276927C7E260007CF985 /* LaunchScreen.storyboard in Resources */,
-				4E7C276627C7E260007CF985 /* Assets.xcassets in Resources */,
-				4E7C276427C7E25F007CF985 /* Main.storyboard in Resources */,
+				4EFEFA0927FF2DDE00723135 /* LaunchScreen.storyboard in Resources */,
+				4EFEFA0627FF2DDE00723135 /* Assets.xcassets in Resources */,
+				4EFEFA0427FF2DDC00723135 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E7C276D27C7E260007CF985 /* Resources */ = {
+		4EFEFA0D27FF2DDE00723135 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E7C277727C7E260007CF985 /* Resources */ = {
+		4EFEFA1727FF2DDE00723135 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +257,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4E7C275527C7E25F007CF985 /* Sources */ = {
+		4EFEF9F527FF2DDC00723135 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7C276127C7E25F007CF985 /* ViewController.swift in Sources */,
-				4E7C275D27C7E25F007CF985 /* AppDelegate.swift in Sources */,
-				4E7C275F27C7E25F007CF985 /* SceneDelegate.swift in Sources */,
+				4EFEFA2D27FF308800723135 /* GameViewController.swift in Sources */,
+				4EFEFA0127FF2DDC00723135 /* ViewController.swift in Sources */,
+				4EFEF9FD27FF2DDC00723135 /* AppDelegate.swift in Sources */,
+				4EFEF9FF27FF2DDC00723135 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E7C276B27C7E260007CF985 /* Sources */ = {
+		4EFEFA0B27FF2DDE00723135 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7C277427C7E260007CF985 /* Devanaboyina_DiceGameTests.swift in Sources */,
+				4EFEFA1427FF2DDE00723135 /* Devanaboyina_DiceGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E7C277527C7E260007CF985 /* Sources */ = {
+		4EFEFA1527FF2DDE00723135 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7C278027C7E260007CF985 /* Devanaboyina_DiceGameUITestsLaunchTests.swift in Sources */,
-				4E7C277E27C7E260007CF985 /* Devanaboyina_DiceGameUITests.swift in Sources */,
+				4EFEFA2027FF2DDE00723135 /* Devanaboyina_DiceGameUITestsLaunchTests.swift in Sources */,
+				4EFEFA1E27FF2DDE00723135 /* Devanaboyina_DiceGameUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4E7C277127C7E260007CF985 /* PBXTargetDependency */ = {
+		4EFEFA1127FF2DDE00723135 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4E7C275827C7E25F007CF985 /* Devanaboyina_DiceGame */;
-			targetProxy = 4E7C277027C7E260007CF985 /* PBXContainerItemProxy */;
+			target = 4EFEF9F827FF2DDC00723135 /* Devanaboyina_DiceGame */;
+			targetProxy = 4EFEFA1027FF2DDE00723135 /* PBXContainerItemProxy */;
 		};
-		4E7C277B27C7E260007CF985 /* PBXTargetDependency */ = {
+		4EFEFA1B27FF2DDE00723135 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4E7C275827C7E25F007CF985 /* Devanaboyina_DiceGame */;
-			targetProxy = 4E7C277A27C7E260007CF985 /* PBXContainerItemProxy */;
+			target = 4EFEF9F827FF2DDC00723135 /* Devanaboyina_DiceGame */;
+			targetProxy = 4EFEFA1A27FF2DDE00723135 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4E7C276227C7E25F007CF985 /* Main.storyboard */ = {
+		4EFEFA0227FF2DDC00723135 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4E7C276327C7E25F007CF985 /* Base */,
+				4EFEFA0327FF2DDC00723135 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4E7C276727C7E260007CF985 /* LaunchScreen.storyboard */ = {
+		4EFEFA0727FF2DDE00723135 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4E7C276827C7E260007CF985 /* Base */,
+				4EFEFA0827FF2DDE00723135 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +320,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4E7C278127C7E260007CF985 /* Debug */ = {
+		4EFEFA2127FF2DDE00723135 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +381,7 @@
 			};
 			name = Debug;
 		};
-		4E7C278227C7E260007CF985 /* Release */ = {
+		4EFEFA2227FF2DDE00723135 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,7 +436,7 @@
 			};
 			name = Release;
 		};
-		4E7C278427C7E260007CF985 /* Debug */ = {
+		4EFEFA2427FF2DDE00723135 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -460,7 +464,7 @@
 			};
 			name = Debug;
 		};
-		4E7C278527C7E260007CF985 /* Release */ = {
+		4EFEFA2527FF2DDE00723135 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -488,7 +492,7 @@
 			};
 			name = Release;
 		};
-		4E7C278727C7E260007CF985 /* Debug */ = {
+		4EFEFA2727FF2DDE00723135 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -507,7 +511,7 @@
 			};
 			name = Debug;
 		};
-		4E7C278827C7E260007CF985 /* Release */ = {
+		4EFEFA2827FF2DDE00723135 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -526,7 +530,7 @@
 			};
 			name = Release;
 		};
-		4E7C278A27C7E260007CF985 /* Debug */ = {
+		4EFEFA2A27FF2DDE00723135 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -543,7 +547,7 @@
 			};
 			name = Debug;
 		};
-		4E7C278B27C7E260007CF985 /* Release */ = {
+		4EFEFA2B27FF2DDE00723135 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -563,43 +567,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E7C275427C7E25F007CF985 /* Build configuration list for PBXProject "Devanaboyina_DiceGame" */ = {
+		4EFEF9F427FF2DDC00723135 /* Build configuration list for PBXProject "Devanaboyina_DiceGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E7C278127C7E260007CF985 /* Debug */,
-				4E7C278227C7E260007CF985 /* Release */,
+				4EFEFA2127FF2DDE00723135 /* Debug */,
+				4EFEFA2227FF2DDE00723135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E7C278327C7E260007CF985 /* Build configuration list for PBXNativeTarget "Devanaboyina_DiceGame" */ = {
+		4EFEFA2327FF2DDE00723135 /* Build configuration list for PBXNativeTarget "Devanaboyina_DiceGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E7C278427C7E260007CF985 /* Debug */,
-				4E7C278527C7E260007CF985 /* Release */,
+				4EFEFA2427FF2DDE00723135 /* Debug */,
+				4EFEFA2527FF2DDE00723135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E7C278627C7E260007CF985 /* Build configuration list for PBXNativeTarget "Devanaboyina_DiceGameTests" */ = {
+		4EFEFA2627FF2DDE00723135 /* Build configuration list for PBXNativeTarget "Devanaboyina_DiceGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E7C278727C7E260007CF985 /* Debug */,
-				4E7C278827C7E260007CF985 /* Release */,
+				4EFEFA2727FF2DDE00723135 /* Debug */,
+				4EFEFA2827FF2DDE00723135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E7C278927C7E260007CF985 /* Build configuration list for PBXNativeTarget "Devanaboyina_DiceGameUITests" */ = {
+		4EFEFA2927FF2DDE00723135 /* Build configuration list for PBXNativeTarget "Devanaboyina_DiceGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E7C278A27C7E260007CF985 /* Debug */,
-				4E7C278B27C7E260007CF985 /* Release */,
+				4EFEFA2A27FF2DDE00723135 /* Debug */,
+				4EFEFA2B27FF2DDE00723135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4E7C275127C7E25F007CF985 /* Project object */;
+	rootObject = 4EFEF9F127FF2DDC00723135 /* Project object */;
 }

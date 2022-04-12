@@ -2,29 +2,21 @@
 //  ViewController.swift
 //  Devanaboyina_DiceGame
 //
-//  Created by Devanaboyina,Maneesh on 2/24/22.
+//  Created by Devanaboyina,Maneesh on 4/7/22.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var FirstUserInput: UITextField!
     
-    @IBOutlet weak var SecondUserInput: UITextField!
-    
-    @IBOutlet weak var FirstUserOutput: UILabel!
+    @IBOutlet weak var FirstPlayerInput: UITextField!
     
     
-    @IBOutlet weak var SecondUserOutput: UILabel!
+    @IBOutlet weak var SecondPlayerInput: UITextField!
     
-    
-    @IBOutlet weak var FinalOutput: UILabel!
-    
-    
-    
-    @IBOutlet weak var DiceRoll: UIButton!
-    
+  var firstPlayername=""
+    var secondPlayername=""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,28 +24,28 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func RollButton(_ sender: UIButton) {
-        var user1=FirstUserInput.text!
-        var user2=SecondUserInput.text!
-        let randomInt1 = Int.random(in: 1...6)
-        let randomInt2 = Int.random(in: 1...6)
-        FirstUserOutput.text="\(user1)'s roll is: \(randomInt1)"
-        SecondUserOutput.text="\(user2)'s roll is: \(randomInt2)"
-        if(randomInt1<randomInt2){
-            FinalOutput.text="\(user2) won the game"
-        }
-        else if(randomInt1>randomInt2){
-            FinalOutput.text="\(user1) won the game"
-        }
-        else{
-            FinalOutput.text="The game is tie"
-        }
+    
+    
+    
+    @IBAction func DiceGamePressed(_ sender: Any) {
+        firstPlayername = FirstPlayerInput.text!
+        secondPlayername=SecondPlayerInput.text!
         
-       
+        
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+          var transition = segue.identifier
+          if transition == "ResultsSegue"{
+              //Create a destination
+              var destination = segue.destination as! GameViewController
+              
+              destination.firstPlayerName = FirstPlayerInput.text!
+              destination.secondPlayerName = SecondPlayerInput.text!
+              //destination.priceAfterDisc = String(priceAfterDiscount)
+          }
+      }
     
-
 
 }
 

@@ -16,6 +16,8 @@
 		4EB005BF2805C6EB0037561C /* MovieCVAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB005BE2805C6EB0037561C /* MovieCVAppTests.swift */; };
 		4EB005C92805C6EB0037561C /* MovieCVAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB005C82805C6EB0037561C /* MovieCVAppUITests.swift */; };
 		4EB005CB2805C6EB0037561C /* MovieCVAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB005CA2805C6EB0037561C /* MovieCVAppUITestsLaunchTests.swift */; };
+		4EB005D82805CBB10037561C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB005D72805CBB10037561C /* Movie.swift */; };
+		4EB005DC2805CCC60037561C /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB005DB2805CCC60037561C /* MovieCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4EB005C42805C6EB0037561C /* MovieCVAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieCVAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB005C82805C6EB0037561C /* MovieCVAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCVAppUITests.swift; sourceTree = "<group>"; };
 		4EB005CA2805C6EB0037561C /* MovieCVAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCVAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4EB005D72805CBB10037561C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		4EB005DB2805CCC60037561C /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				4EB005A92805C6E90037561C /* SceneDelegate.swift */,
 				4EB005AB2805C6E90037561C /* ViewController.swift */,
 				4EB005AD2805C6E90037561C /* Main.storyboard */,
+				4EB005DB2805CCC60037561C /* MovieCollectionViewCell.swift */,
+				4EB005D72805CBB10037561C /* Movie.swift */,
 				4EB005B02805C6EB0037561C /* Assets.xcassets */,
 				4EB005B22805C6EB0037561C /* LaunchScreen.storyboard */,
 				4EB005B52805C6EB0037561C /* Info.plist */,
@@ -260,6 +266,8 @@
 			files = (
 				4EB005AC2805C6E90037561C /* ViewController.swift in Sources */,
 				4EB005A82805C6E90037561C /* AppDelegate.swift in Sources */,
+				4EB005DC2805CCC60037561C /* MovieCollectionViewCell.swift in Sources */,
+				4EB005D82805CBB10037561C /* Movie.swift in Sources */,
 				4EB005AA2805C6E90037561C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

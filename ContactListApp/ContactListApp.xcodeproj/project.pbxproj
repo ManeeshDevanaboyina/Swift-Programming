@@ -19,6 +19,7 @@
 		4E05E16A280F05BF0067CFC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E05E169280F05BF0067CFC2 /* GoogleService-Info.plist */; };
 		4E05E16D280F06D90067CFC2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4E05E16C280F06D90067CFC2 /* FirebaseAnalytics */; };
 		4E05E16F280F06D90067CFC2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4E05E16E280F06D90067CFC2 /* FirebaseDatabase */; };
+		4E2768202811A96800E30323 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E27681F2811A96800E30323 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4E05E15A280F04EA0067CFC2 /* ContactListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListAppUITests.swift; sourceTree = "<group>"; };
 		4E05E15C280F04EA0067CFC2 /* ContactListAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4E05E169280F05BF0067CFC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E27681F2811A96800E30323 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				4E05E13B280F04E90067CFC2 /* SceneDelegate.swift */,
 				4E05E13D280F04E90067CFC2 /* ViewController.swift */,
 				4E05E13F280F04E90067CFC2 /* Main.storyboard */,
+				4E27681F2811A96800E30323 /* ResultViewController.swift */,
 				4E05E142280F04EA0067CFC2 /* Assets.xcassets */,
 				4E05E169280F05BF0067CFC2 /* GoogleService-Info.plist */,
 				4E05E144280F04EA0067CFC2 /* LaunchScreen.storyboard */,
@@ -276,6 +279,7 @@
 				4E05E13E280F04E90067CFC2 /* ViewController.swift in Sources */,
 				4E05E13A280F04E90067CFC2 /* AppDelegate.swift in Sources */,
 				4E05E13C280F04E90067CFC2 /* SceneDelegate.swift in Sources */,
+				4E2768202811A96800E30323 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
